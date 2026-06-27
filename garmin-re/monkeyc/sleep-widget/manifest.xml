@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- CIQ widget manifest skeleton. Set a real application id (uuidgen) before build.
+     FR55 product id = "fr55". Widget type + Communications permission are the keys. -->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+  <iq:application
+      entry="SleepApp"
+      id="00000000000000000000000000000000"
+      launcherIcon="@Drawables.LauncherIcon"
+      name="@Strings.AppName"
+      type="widget"
+      minSdkVersion="3.2.0">
+    <iq:products>
+      <iq:product id="fr55"/>
+    </iq:products>
+    <iq:permissions>
+      <iq:uses-permission id="Communications"/>
+    </iq:permissions>
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+  </iq:application>
+</iq:manifest>

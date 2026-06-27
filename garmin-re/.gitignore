@@ -1,0 +1,7 @@
+firmware/*.gcd
+firmware/*.GCD
+firmware/*.bin
+firmware/*.BIN
+*.fit
+*.FIT
+__pycache__/
